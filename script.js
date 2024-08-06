@@ -105,19 +105,6 @@ gsap.from("#about-sec img", {
 
 
 // SKILL SECTION 
-gsap.from("#skill-sec h1", {
-  opacity: 0,
-  duration: 1,
-  x: 80,
-  scrollTrigger: {
-    trigger: ".skills img",
-    scroller: "body",
-    start: "top 50%",
-    end: "botton -30%",
-    scrub: 2
-  }
-
-})
 
 
 gsap.from(".skills img", {
@@ -277,32 +264,6 @@ gsap.from(".info-3 img", {
   }
 })
 
-gsap.from(".project-1-info a", {
-  opacity: 0,
-  duration: 1,
-  delay: 0.5,
-  x: -500,
-  scrollTrigger: {
-    trigger: ".project-1-info a",
-    scroller: "body",
-    start: "top 50%",
-    end: "bottom 75%",
-    scrub: 2
-  }
-})
-gsap.from(".project-2-info a", {
-  opacity: 0,
-  duration: 1,
-  delay: 0.5,
-  x: -500,
-  scrollTrigger: {
-    trigger: ".project-2-info a",
-    scroller: "body",
-    start: "top 50%",
-    end: "bottom 75%",
-    scrub: 2
-  }
-})
 
 gsap.from(".info-11 span", {
   opacity: 0,
